@@ -19,11 +19,15 @@ tooltip {
     background-color: @background;
 }
 
-#waybar {
+window#waybar {
     background: alpha(@background, 0.6);
     border-radius: 0;
+    min-height: 0;
+    padding: 0;
+}
+
+#waybar > box {
     min-height: 34px;
-    max-height: 34px;
 }
 
 /* —————————————————————— 工作区 —————————————————————— */
@@ -101,6 +105,12 @@ tooltip {
     color: @foreground;
     margin: 1px 0;
     padding: 0 10px;
+    min-width: 0;
+    max-width: 250px;
+}
+
+#window label {
+    min-width: 0;
 }
 
 /* —————————————————————— 通用模块样式 —————————————————————— */
