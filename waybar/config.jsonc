@@ -1,0 +1,38 @@
+{
+    // 保留 Shorin 的全部功能模块，移除箭头分隔符，采用 Dotfiles 扁平布局
+    "include": [
+        "modules.jsonc"
+    ],
+    "layer": "top",
+    "position": "top",
+    "fixed-center": true,
+    "reload_style_on_change": true,
+    "modules-left": [
+        "niri/workspaces",
+        "cffi/niri-taskbar",
+        "niri/window"
+    ],
+    "modules-center": [
+        "custom/actions",
+        "custom/wfrec",
+        "custom/screenshot",
+        "custom/clipboard",
+        "idle_inhibitor",
+        "custom/colorpicker",
+        "power-profiles-daemon",
+        "custom/applauncher",
+        "clock",
+        "custom/cava"
+    ],
+    "modules-right": [
+        "custom/updates",
+        "tray",
+        "group/ddcutil",
+        "privacy",
+        "group/audio",
+        "bluetooth",
+        "network",
+        "battery",
+        "group/powermenu"
+    ]
+}
