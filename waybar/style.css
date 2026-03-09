@@ -105,12 +105,11 @@ window#waybar {
     color: @foreground;
     margin: 1px 0;
     padding: 0 10px;
-    min-width: 0;
-    max-width: 250px;
 }
 
 #window label {
     min-width: 0;
+    font-size: 12px;
 }
 
 /* —————————————————————— 通用模块样式 —————————————————————— */
